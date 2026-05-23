@@ -1,0 +1,28 @@
+{
+  "current_name": "Fivem_BlipsTemplate",
+  "proposed_name": "fivem-blips-template",
+  "rename_requires_explicit_approval": true,
+  "description": "Lua template for adding and managing custom map blips on FiveM servers.",
+  "topics": [
+    "fivem",
+    "lua",
+    "blips",
+    "gta5",
+    "fivem-script",
+    "blipstemplate"
+  ],
+  "source_actions": [
+    "consider_archive",
+    "add_topics",
+    "normalize_name"
+  ],
+  "review_notes": {
+    "category": "abandoned",
+    "priority": "high",
+    "days_since_update": 1182,
+    "has_license": false,
+    "has_topics": false,
+    "has_readme": true,
+    "has_description": true
+  }
+}

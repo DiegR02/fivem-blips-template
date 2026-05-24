@@ -1,31 +1,39 @@
-# Fivem_BlipsTemplate
-A FiveM Blip generator template
+# fivem-blips-template
 
-    local blips = {
-      --[[
-      title -> Show the name of the blip in the map.
-      colour -> Choose the colour of the blip.
-      id -> Choose the blip for the map(https://docs.fivem.net/docs/game-references/blips/).
-      scale -> Chooose the size of the blip.
-      x, y, z -> Choose the coordinates of the blip.
-      ]]
-      {title="Hospital", colour=75, id=61, scale= 1.0, x = -256.82, y = 6334.4, z = 32.8},
-    }
-      
+A reusable FiveM Lua template for adding map blips to a game server resource. Built as a learning and practice project; not intended for production use.
 
-    Citizen.CreateThread(function()
+## Tech Stack
 
-        for _, info in pairs(blips) do
-        info.blip = AddBlipForCoord(info.x, info.y, info.z)
-        SetBlipSprite(info.blip, info.id)
-        SetBlipDisplay(info.blip, 4)
-        SetBlipScale(info.blip, info.scale)
-        SetBlipColour(info.blip, info.colour)
-        -- SetBlipAsShortRange() if true -> set the market short-range
-        -- SetBlipAsShortRange() if false -> set the market long-range
-        SetBlipAsShortRange(info.blip, true)
-	      BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString(info.title)
-        EndTextCommandSetBlipName(info.blip)
-        end
-    end)
+| Layer | Detail |
+|---|---|
+| Language | Lua |
+| Platform | FiveM |
+| Manifest | `fxmanifest.lua` |
+
+## Project Structure
+
+```
+fivem-blips-template/
+├── client/
+│   └── client.lua
+├── fxmanifest.lua
+└── LICENSE
+```
+
+> Paths are derived from the observed repository tree.
+
+## Installation
+
+Pending review — confirm setup requirements from `fxmanifest.lua` and `client/client.lua` before documenting steps.
+
+## Usage
+
+Pending review — add usage examples after validating the resource entrypoint in `client/client.lua`.
+
+## Topics
+
+`blips` · `fivem` · `game-server-resource` · `learning-project` · `lua` · `template`
+
+## License
+
+See [LICENSE](LICENSE).

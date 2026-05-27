@@ -1,78 +1,39 @@
 # fivem-blips-template
 
-## Overview
-
-This repository contains a Lua project prepared as part of a personal
-GitHub portfolio.
+A Lua template for adding map blips to a FiveM game server resource.
+Created as a learning and practice project; not intended for production use.
 
 ## Tech Stack
 
-- Primary language: Lua
-- Frameworks and tools: fivem
-- Project type: game-server-resource, template
-
-## Repository Snapshot
-
-- Main language: Lua
-- Category: template
-- Priority: low
-- Days since update: 3
-- Has description: True
-- Has topics: True
-- Has README: True
-- Portfolio status: reusable
-- Quality signals: has-license
-
-## Suggested Topics
-
-- blips
-- fivem
-- game-server-resource
-- learning-project
-- lua
-- template
+| Item | Value |
+|---|---|
+| Language | Lua |
+| Platform | FiveM |
+| Manifest | `fxmanifest.lua` |
 
 ## Project Structure
 
-Observed repository paths:
-
-- LICENSE
-- README.md
-- README_PROPOSAL.md
-- RENAME_PROPOSAL.md
-- REPOSITORY_REVIEW.md
-- client
-- client/client.lua
-- fxmanifest.lua
-- repo_metadata_proposal.json
+```
+fivem-blips-template/
+├── client/
+│   └── client.lua
+├── fxmanifest.lua
+└── LICENSE
+```
 
 ## Installation
 
-- Review the repository source files to confirm setup requirements.
-- Add exact commands after human validation.
+Review `fxmanifest.lua` and `client/client.lua` to confirm resource entry points and dependencies before use.
+Add exact setup commands after human validation.
 
 ## Usage
 
-- Add usage examples after validating the project entrypoint.
+Add usage examples after validating the resource entry point and blip configuration.
 
-## Project Status
+## Topics
 
-- Category: template
-- Priority: low
+`blips` · `fivem` · `game-server-resource` · `learning-project` · `lua` · `template`
 
-## Repository Maintenance
+## License
 
-This repository has been reviewed for naming, metadata and documentation
-consistency.
-
-## Suggested Actions
-
-- None
-
-## Review Notes
-
-It looks like a reusable template or starter.
-
-- Stack: fivem
-- Project type: game-server-resource, template
-- Position as learning or practice work, not production software.
+See [LICENSE](LICENSE).
